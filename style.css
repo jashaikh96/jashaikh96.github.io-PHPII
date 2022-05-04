@@ -1,0 +1,463 @@
+* {
+
+    padding: 0;
+    
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    
+    }
+    
+    /* header section */
+    
+    header {
+    
+    width: 100%;
+    
+    }
+    
+    .logo_bar {
+    
+    width: 100%;
+    
+    padding: 2% 5%;
+    
+    border-bottom: 8px solid #181818;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    }
+    
+    .logo_bar h2 {
+    
+    font-size: 2.75rem;
+    
+    font-weight: 700;
+    
+    letter-spacing: 2px;
+    
+    line-height: 2;
+    
+    text-transform: capitalize;
+    
+    color: lightseagreen;
+    
+    }
+    
+    .logo_bar a {
+    
+    text-decoration: none;
+    
+    padding: 10px 14px;
+    
+    border: none;
+    
+    border-radius: 4px;
+    
+    background-color: lightseagreen;
+    
+    color: #fff;
+    
+    font-size: 1.2rem;
+    
+    font-weight: 600;
+    
+    }
+    
+    .menu {
+    
+    width: 100%;
+    
+    padding: 1.5% 5%;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    }
+    
+    .menu ul {
+    
+    list-style-type: none;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    }
+    
+    .menu ul li {
+    
+    float: left;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    }
+    
+    .menu ul li a {
+    
+    text-decoration: none;
+    
+    display: block;
+    
+    padding: 10px 14px;
+    
+    font-size: 1rem;
+    
+    font-weight: 600;
+    
+    color: #181818;
+    
+    text-transform: uppercase;
+    
+    }
+    
+    .menu ul li a[class="active"] {
+    
+    color: lightseagreen;
+    
+    }
+    
+    /* main section */
+    
+    .sec1 {
+    
+    width: 100%;
+    
+    padding: 3% 5%;
+    
+    display: grid;
+    
+    grid-template-columns: 60% 40%;
+    
+    }
+    
+    .register h2 {
+    
+    font-size: 2.25rem;
+    
+    font-weight: 700;
+    
+    letter-spacing: 2px;
+    
+    text-transform: uppercase;
+    
+    color: darkorange;
+    
+    }
+    
+    .register p {
+    
+    font-size: 1.3rem;
+    
+    font-weight: 300;
+    
+    color: #aaa;
+    
+    margin-top: 4%;
+    
+    }
+    
+    .register p a {
+    
+    text-decoration: none;
+    
+    padding: 10px 14px;
+    
+    border: none;
+    
+    border-radius: 4px;
+    
+    background-color: lightseagreen;
+    
+    color: #fff;
+    
+    font-size: 1.2rem;
+    
+    font-weight: 600;
+    
+    }
+    
+    .sec1 img {
+    
+    width: 100%;
+    
+    height: auto;
+    
+    }
+    
+    /* adminLogin page */
+    
+    .sec {
+    
+    width: 100%;
+    
+    padding: 3% 5%;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    }
+    
+    .admin_login {
+    
+    width: 40%;
+    
+    border: 0.75px solid #aaa;
+    
+    border-radius: 10px;
+    
+    box-shadow: 0 5px 15px #bbb;
+    
+    padding: 3%;
+    
+    }
+    
+    .admin_login h2 {
+    
+    text-align: center;
+    
+    margin-bottom: 3%;
+    
+    font-size: 1.75rem;
+    
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    
+    text-transform: capitalize;
+    
+    color: lightseagreen;
+    
+    }
+    
+    .admin_login p {
+    
+    padding: 2% 0%;
+    
+    }
+    
+    .admin_login form label {
+    
+    font-size: 1rem;
+    
+    font-weight: 600;
+    
+    letter-spacing: 1px;
+    
+    text-transform: capitalize;
+    
+    color: lightseagreen;
+    
+    }
+    
+    .admin_login form input[type="text"],
+    
+    .admin_login form input[type="email"],
+    
+    .admin_login form input[type="password"],
+    
+    .admin_login form input[type="date"],
+    
+    .admin_login form textarea {
+    
+    font-size: 1rem;
+    
+    width: 100%;
+    
+    padding: 2%;
+    
+    border: 1px solid #aaa;
+    
+    border-radius: 5px;
+    
+    margin: 2% 0%;
+    
+    }
+    
+    .admin_login form input[type="radio"] {
+    
+    font-size: 1rem;
+    
+    margin: 2% 0% 0% 2%;
+    
+    }
+    
+    .admin_login form button {
+    
+    padding: 10px 14px;
+    
+    border: none;
+    
+    border-radius: 4px;
+    
+    background-color: lightseagreen;
+    
+    color: #fff;
+    
+    font-size: 1.2rem;
+    
+    font-weight: 600;
+    
+    cursor: pointer;
+    
+    margin: 2% 0%;
+    
+    }
+    
+    .admin_login h4 {
+    
+    text-align: center;
+    
+    }
+    
+    .admin_login h3 {
+    
+    text-align: center;
+    
+    font-size: 1rem;
+    
+    font-weight: 600;
+    
+    color: lightseagreen;
+    
+    margin: 2% 0%;
+    
+    }
+    
+    .admin_login h4 a {
+    
+    text-decoration: none;
+    
+    color: lightseagreen;
+    
+    }
+    
+    /* admin page */
+    
+    main section {
+    
+    width: 100%;
+    
+    padding: 3% 5%;
+    
+    }
+    
+    .add_admin_div {
+    
+    width: 100%;
+    
+    padding: 2% 0% 1% 0%;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    }
+    
+    .add_admin_div h2 {
+    
+    font-size: 1.75rem;
+    
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    
+    text-transform: capitalize;
+    
+    color: lightseagreen;
+    
+    }
+    
+    .add_admin_div a {
+    
+    text-decoration: none;
+    
+    padding: 10px 14px;
+    
+    border: none;
+    
+    border-radius: 4px;
+    
+    background-color: lightseagreen;
+    
+    color: #fff;
+    
+    font-size: 1.2rem;
+    
+    font-weight: 600;
+    
+    }
+    
+    .admin-list {
+    
+    width: 100%;
+    
+    padding: 1% 0%;
+    
+    }
+    
+    .admin-list table {
+    
+    width: 100%;
+    
+    }
+    
+    .admin-list table tr th,
+    
+    .admin-list table tr td {
+    
+    padding: 10px 12px;
+    
+    border: 1px solid #aaa;
+    
+    }
+    
+    .admin-list table tr td a[id="delete"] {
+    
+    text-decoration: none;
+    
+    padding: 6px 8px;
+    
+    border: none;
+    
+    border-radius: 4px;
+    
+    background-color: darkred;
+    
+    color: #fff;
+    
+    font-size: 1rem;
+    
+    font-weight: 600;
+    
+    }
+    
+    .section-2 {
+    
+    margin-top: 2%;
+    
+    }
